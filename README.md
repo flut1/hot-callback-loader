@@ -1,6 +1,9 @@
 # hot-callback-loader
 Webpack loader that wraps a module in a callback that executes whenever the module hot updates
 
+## Installation
+`npm install hot-callback-loader --save-dev`
+
 ## Usage
 ```javascript
 // import using es6 syntax
