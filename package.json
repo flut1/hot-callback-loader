@@ -1,0 +1,28 @@
+{
+  "name": "hot-callback-loader",
+  "version": "0.1.0",
+  "description": "Webpack loader that wraps a module in a callback that executes whenever the module hot updates",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flut1/hot-callback-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "hot",
+    "callback",
+    "hmr",
+    "module",
+    "update"
+  ],
+  "author": "Floris Bernard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flut1/hot-callback-loader/issues"
+  },
+  "homepage": "https://github.com/flut1/hot-callback-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
+}
