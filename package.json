@@ -1,6 +1,6 @@
 {
   "name": "hot-callback-loader",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Webpack loader that wraps a module in a callback that executes whenever the module hot updates",
   "main": "index.js",
   "repository": {
