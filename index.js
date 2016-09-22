@@ -10,8 +10,8 @@ module.exports.pitch = function(remainingRequest) {
 	var moduleRequest = loaderUtils.stringifyRequest(this, remainingRequest);
 	var modulePath = loaderUtils.stringifyRequest(this, this.resourcePath);
 	var result = [
-		"let moduleInstance = require(" + moduleRequest + ");",
-		"const moduleId = require.resolve(" + moduleRequest + ");",
+		"var moduleInstance = require(" + moduleRequest + ");",
+		"var moduleId = require.resolve(" + moduleRequest + ");",
 		"module.exports = function(cb) {",
 		"  cb(moduleInstance" + useExport + ");",
 		"  if(module.hot) {",
